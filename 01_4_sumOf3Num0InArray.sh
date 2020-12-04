@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 echo "Enter Three Number : "
 
@@ -18,6 +18,6 @@ do
 
 	if [ $res -eq 0 ]
 	then
-		echo "The Number of Sum Zero = ${ar[@]}"
+		echo "The Number of Sum Zero =" ${ar[@]}
 	fi
 done
